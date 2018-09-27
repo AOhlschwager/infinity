@@ -35,7 +35,11 @@
   <p><a href="./tic.html">Tic-Tac-Toe</a></p>
   <p><a href="./transmission.html">Transmission Matrix</a></p>
   <p><a href="./unmasking.html">Unmasking</a></p>
-  <p id="rmiss">Random</p>
-  <script>document.getElementById("rmiss").innerHTML = Math.floor(Math.random() * 25);</script>
+  <button onclick="rpage()">Random</button>
+  <p id="rmiss"></p>
+  <script>function rmiss(){
+      document.getElementById("rmiss").innerHTML = Math.floor(Math.random() * 25);
+      }
+  </script>
 </body>
 </html>
