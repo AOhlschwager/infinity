@@ -11,6 +11,7 @@
 <body>
   <button onclick="robj()">Random</button>
   <p id="demo"></p>
+  <p id="demo1"></p>
   <ol>
     <li>Capture</li>
     <li>Data Scan</li>
@@ -36,7 +37,8 @@
   
   <script>
     function robj(){
-      document.getElementById("demo").innerHTML = Math.floor((Math.random() * 20)+1) Math.floor((Math.random() * 20)+1);
+      document.getElementById("demo").innerHTML = Math.floor((Math.random() * 20)+1);
+      document.getElementById("demo1").innerHTML = Math.floor((Math.random() * 20)+1);
     }
 </script>
   
