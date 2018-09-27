@@ -36,9 +36,37 @@
   <p><a href="./transmission.html">Transmission Matrix</a></p>
   <p><a href="./unmasking.html">Unmasking</a></p>
   <button onclick="rpage()">Random</button>
-  <p id="rmiss"></p>
   <script>function rpage(){
-      document.getElementById("rmiss").innerHTML = Math.floor(Math.random() * 25);
+      var rlink = Math.round(Math.random() * 25);
+      var links = new Array()
+        links [0]="https://aohlschwager.github.io/infinity.github.io/acquisition"
+        links [1]="https://aohlschwager.github.io/infinity.github.io/annihilation"
+        links [2]="https://aohlschwager.github.io/infinity.github.io/biotechvore"
+        links [3]="https://aohlschwager.github.io/infinity.github.io/capture"
+        links [4]="https://aohlschwager.github.io/infinity.github.io/comms"
+        links [5]="https://aohlschwager.github.io/infinity.github.io/deadly"
+        links [6]="https://aohlschwager.github.io/infinity.github.io/decapitation"
+        links [7]="https://aohlschwager.github.io/infinity.github.io/engineering"
+        links [8]="https://aohlschwager.github.io/infinity.github.io/firefight"
+        links [9]="https://aohlschwager.github.io/infinity.github.io/frontline"
+        links [10]="https://aohlschwager.github.io/infinity.github.io/frostbyte"
+        links [11]="https://aohlschwager.github.io/infinity.github.io/grid"
+        links [12]="https://aohlschwager.github.io/infinity.github.io/highly"
+        links [13]="https://aohlschwager.github.io/infinity.github.io/hunting"
+        links [14]="https://aohlschwager.github.io/infinity.github.io/looting"
+        links [15]="https://aohlschwager.github.io/infinity.github.io/power"
+        links [16]="https://aohlschwager.github.io/infinity.github.io/quadrant"
+        links [17]="https://aohlschwager.github.io/infinity.github.io/rescue"
+        links [18]="https://aohlschwager.github.io/infinity.github.io/safe"
+        links [19]="https://aohlschwager.github.io/infinity.github.io/show"
+        links [20]="https://aohlschwager.github.io/infinity.github.io/supplies"
+        links [21]="https://aohlschwager.github.io/infinity.github.io/supremacy"
+        links [22]="https://aohlschwager.github.io/infinity.github.io/tarmory"
+        links [23]="https://aohlschwager.github.io/infinity.github.io/tic"
+        links [24]="https://aohlschwager.github.io/infinity.github.io/transmission"
+        links [25]="https://aohlschwager.github.io/infinity.github.io/unmasking"
+      
+      window.location=links[rlink]
       }
   </script>
 </body>
