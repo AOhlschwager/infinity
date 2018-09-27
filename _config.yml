@@ -32,7 +32,7 @@ defaults:
 timezone: America/Denver
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
