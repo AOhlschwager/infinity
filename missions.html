@@ -10,6 +10,7 @@
   
 <body>
   <button onclick="rpage()">Random</button>
+  <button onclick="rtour()">Tournament</button>
   <p><a href="./acquisition.html">Acquisition</a></p>
   <p><a href="./annihilation.html">Annihilation</a></p>
   <p><a href="./biotechvore.html">Biotechvore</a></p>
@@ -36,6 +37,17 @@
   <p><a href="./tic.html">Tic-Tac-Toe</a></p>
   <p><a href="./transmission.html">Transmission Matrix</a></p>
   <p><a href="./unmasking.html">Unmasking</a></p>
+  
+  
+  <script>function rtour(){
+      var rlink = Math.round(Math.random() * 2);
+      var links = new Array()
+        links [0]="https://aohlschwager.github.io/infinity/engineering"
+        links [1]="https://aohlschwager.github.io/infinity/highly"
+        links [2]="https://aohlschwager.github.io/infinity/biotechvore"
+      
+      window.location=links[rlink]
+      }  
   
   <script>function rpage(){
       var rlink = Math.round(Math.random() * 25);
