@@ -10,6 +10,7 @@
   
 <body>
   <button onclick="rpage()">Random</button>
+  <button onclick="rmiss()">Tournament</button>
   <p><a href="./acquisition.html">Acquisition</a></p>
   <p><a href="./annihilation.html">Annihilation</a></p>
   <p><a href="./biotechvore.html">Biotechvore</a></p>
@@ -70,6 +71,16 @@
         links [25]="https://aohlschwager.github.io/infinity/unmasking"
       
       window.location=links[rlink]
+      }
+  </script>
+  <script>function rmiss(){
+      var rtour = Math.round(Math.random() * 3);
+      var tour = new Array()
+        links [0]="https://aohlschwager.github.io/infinity/frostbyte"
+        links [1]="https://aohlschwager.github.io/infinity/supplies"
+        links [2]="https://aohlschwager.github.io/infinity/show"
+          
+      window.location=tour[rtour]
       }
   </script>
 </body>
