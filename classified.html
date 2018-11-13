@@ -60,8 +60,8 @@
     var rclas = Math.round(Math.random() * (clas.length - 1));
     var mission = clas[rclas];
     clas.splice (rclas, 1);
-    var rclas1 = Math.round(Math.random() * 18);
-    document.getElementById("demo").innerHTML = mission;
+    var rclas1 = Math.round(Math.random() * (clas.length -1));
+    document.getElementById("demo").innerHTML = mission + "<br>" + clas[rclas1];
     document.getElementById("demo1").innerHTML = clas[rclas1];
 } </script>
   
