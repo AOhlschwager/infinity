@@ -57,7 +57,7 @@
         clas [17] = "Telemetry"
         clas [18] = "Test Run"
         clas [19] = "Sabotage"
-    var rclas = Math.round(Math.random() * 19);
+    var rclas = Math.round(Math.random() * (clas.length - 1));
     var mission = clas[rclas];
     clas.splice (rclas, 1);
     var rclas1 = Math.round(Math.random() * 18);
