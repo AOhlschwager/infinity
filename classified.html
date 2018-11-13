@@ -59,7 +59,8 @@
         clas [19] = "Sabotage"
     var rclas = Math.round(Math.random() * 19);
     var mission = clas[rclas];
-    var rclas1 = Math.round(Math.random() * 19);
+    clas.splice (rclas, 1);
+    var rclas1 = Math.round(Math.random() * 18);
     document.getElementById("demo").innerHTML = mission;
     document.getElementById("demo1").innerHTML = clas[rclas1];
 } </script>
