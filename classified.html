@@ -9,8 +9,9 @@
   
   
 <body>
-  <button onclick="rclas()">Classifieds1</button>
+  <button onclick="robj()">Random</button>
   <p id="demo"></p>
+  <p id="demo1"></p>
   <ol>
     <li>Capture</li>
     <li>Data Scan</li>
@@ -34,6 +35,10 @@
     <li>Sabotage</li>
   </ol>
   
+  <script> function robj(){
+    document.getElementById("demo").innerHTML = Math.floor((Math.random() * 20)+1);
+    document.getElementById("demo1").innerHTML = Math.floor((Math.random() * 20)+1);
+} </script>
   
   
   <script> function rclas(){
