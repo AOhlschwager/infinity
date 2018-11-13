@@ -36,9 +36,12 @@
   </ol>
   
   <script> function robj(){
-      var rlink = Math.round(Math.random() * 25);
+      var rlink = Math.round(Math.random() * 1);
+      var clas = new Array ()
+        clas [0] = "Capture"
+        clas [1] = "Data Scan"
     document.getElementById("demo").innerHTML = Math.floor((Math.random() * 20)+1);
-    document.getElementById("demo1").innerHTML = rlink;
+    document.getElementById("demo1").innerHTML = clas[rlink];
 } </script>
   
   
