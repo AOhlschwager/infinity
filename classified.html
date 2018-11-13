@@ -37,8 +37,9 @@
   
   
   
-  <script>
-    function rclas(){
+  <script> function rclas(){
+      var rclass = Math.round(Math.random() * 19);
+      var rclass1 = Math.round(Math.random() * 19);
       var clas = new array ()
         clas [0] = "Capture"
         clas [1] = "Data Scan"
@@ -60,11 +61,8 @@
         clas [17] = "Telemetry"
         clas [18] = "Test Run"
         clas [19] = "Sabotage"
-      var rclass = Math.round(Math.random() * 19);
-      var rclass1 = Math.floor((Math.random() * 20));
-      var rlink = Math.round(Math.random() * 25);
-      document.getElementById("demo").innerHTML = rclass1
-      document.getElementById("demo1").innerHTML = rlink
+      document.getElementById("demo").innerHTML = rclass
+      document.getElementById("demo1").innerHTML = rclass1
     }
 </script>
   
