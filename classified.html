@@ -35,11 +35,12 @@
   
   <script> {
       var clas = new Array ()
-        clas [0] = "Capture: Veteran, Elite, or Chain of Command - base contact with Null enemy inside enemy's half of table at end of Game"
+        var clas = new Array ()
+        clas [0] = "Capture: Veteran, Elite, or Chain of Command - Base contact with Null enemy inside enemy's half of table at end of Game"
         clas [1] = "Data Scan: Hacker - WIP against enemy inside ZOC, target may declare reset"
-        clas [2] = "Experimental Drug: Doctor or Paramedic - recover allied trooper from Unconscious state"
+        clas [2] = "Experimental Drug: Doctor or Paramedic - Recover allied trooper from Unconscious state"
         clas [3] = "Extreme Prejudice- Perform Coupe de Grace"
-        clas [4] = "Follow-Up: MI or HI - perform WIP against enemy HVT inside ZOC, LOF gives +3 MOD"
+        clas [4] = "Follow-Up: MI or HI - Perform WIP against enemy HVT inside ZOC, LOF gives +3 MOD"
         clas [5] = "HVT: Designation: Forward Observer or Spotlight - Succeed at 2 Forward Observer or Spotlight against enemy HVT"
         clas [6] = "HVT: Espionage: Hacker - Pass WIP -3 against enemy HVT inside ZOC"
         clas [7] = "HVT: Identity Check: Biometric Visor, MSV or Sensor - WIP against enemy HVT inside ZOC and LOF"
@@ -49,12 +50,12 @@
         clas [11] = "In Extremis Recovery- Be engaged with Unconscious and perform WIP+3, enemy removed from play"
         clas [12] = "Mapping: Forward Observer or Hacker - Base contact with Building or Scenery entirely inside enemy's DZ, normal WIP"
         clas [13] = "Nanoespionage: Engineer, Doctor, Paramedic, or DataTracker - Engaged with enemy Specialist and succeed normal WIP"
-        clas [14] = "Net-Undermine: Veteran, Elite, or Chain of Command - succeed normal WIP totally inside enemy's half of table"
-        clas [15] = "Predator- killed 2 enemy troopers in CC (not Coupe de Grace), Bonus 1 for killing 3"
+        clas [14] = "Net-Undermine: Veteran, Elite, or Chain of Command - Succeed normal WIP totally inside enemy's half of table"
+        clas [15] = "Predator- Kill 2 enemy troopers in CC (not Coupe de Grace), Bonus 1 for killing 3"
         clas [16] = "Rescue- Casevac allied trooper inside own half of table outside of DZ, Bonus 1 for enemy's half of table"
         clas [17] = "Telemetry: Forward Observer or Spotlight - Forward Observe or Spotlight an enemy trooper"
-        clas [18] = "Test Run: Engineer - recover 1 STR on allied trooper"
-        clas [19] = "Sabotage: D-Charges - choose Building or Scenery Item after Initiative Roll before Deployment, entirely inside enemy's half of table, detonate a D-Charge on it"
+        clas [18] = "Test Run: Engineer - Recover 1 STR on allied trooper"
+        clas [19] = "Sabotage: D-Charges - Choose Building or Scenery Item after Initiative Roll before Deployment, entirely inside enemy's half of table, detonate a D-Charge on it"
     var rclas = Math.round(Math.random() * (clas.length - 1));
     var mission = clas[rclas];
     clas.splice (rclas, 1);
