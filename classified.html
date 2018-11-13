@@ -11,7 +11,6 @@
 <body>
   <button onclick="rclas()">Classifieds</button>
   <p id="demo"></p>
-  <p id="demo1"></p>
   <ol>
     <li>Capture</li>
     <li>Data Scan</li>
@@ -61,9 +60,8 @@
         clas [17] = "Telemetry"
         clas [18] = "Test Run"
         clas [19] = "Sabotage"
-      document.getElementById("demo").innerHTML = rclass
-      document.getElementById("demo1").innerHTML = rclass1
-    }
+      document.getElementById("demo").innerHTML = clas[rclass] + "<br>" + clas[rclass1]
+      }
 </script>
   
 </body>
