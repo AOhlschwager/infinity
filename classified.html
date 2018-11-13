@@ -36,19 +36,9 @@
   </ol>
   
   <script> function robj(){
-      var rlink = Math.round(Math.random() * 1);
+      var rclas = Math.round(Math.random() * 19);
+      var rclas1 = Math.round(Math.random() * 19);
       var clas = new Array ()
-        clas [0] = "Capture"
-        clas [1] = "Data Scan"
-    document.getElementById("demo").innerHTML = Math.floor((Math.random() * 20)+1);
-    document.getElementById("demo1").innerHTML = clas[rlink];
-} </script>
-  
-  
-  <script> function rclas(){
-      var rclass = Math.round(Math.random() * 19);
-      var rclass1 = Math.round(Math.random() * 19);
-      var clas = new array ()
         clas [0] = "Capture"
         clas [1] = "Data Scan"
         clas [2] = "Experimental Drug"
@@ -69,9 +59,13 @@
         clas [17] = "Telemetry"
         clas [18] = "Test Run"
         clas [19] = "Sabotage"
-      document.getElementById("demo").innerHTML = clas;
-      }
-</script>
+    document.getElementById("demo").innerHTML = clas[rclas];
+    document.getElementById("demo1").innerHTML = clas[rclas1];
+} </script>
+  
+  
+  
+
   
 </body>
 </html>
