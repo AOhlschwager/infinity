@@ -35,12 +35,7 @@
     <li>Sabotage</li>
   </ol>
   
-  <script>
-    function robj(){
-      document.getElementById("demo").innerHTML = Math.floor((Math.random() * 20)+1);
-      document.getElementById("demo1").innerHTML = Math.floor((Math.random() * 20)+1);
-    }
-</script>
+  
   
   <script>
     function rclas(){
@@ -66,8 +61,9 @@
         clas [18] = "Test Run"
         clas [19] = "Sabotage"
       var rclass = Math.round(Math.random() * 19);
-      var rclass1 = Math.round(Math.random() * 19);
-      document.getElementById("demo").innerHTML = rclass
+      var rclass1 = Math.floor((Math.random() * 20));
+      var rlink = Math.round(Math.random() * 25);
+      document.getElementById("demo").innerHTML = rlink
       document.getElementById("demo1").innerHTML = rclass1
     }
 </script>
